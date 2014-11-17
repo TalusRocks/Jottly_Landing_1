@@ -1,0 +1,214 @@
+
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+	}
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+/*		div#marketing img {
+			float: left;
+			max-width: 100%;
+		}
+*/
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+		/* HEADER ================= */
+		section#header div img {
+			width: 100%;
+		}
+		header {
+			height: 20%;
+		}
+		header nav ul {
+			text-align: center;
+			float: none;
+			margin-top: 10px;
+		}
+		header nav ul li {
+			display: block;
+			padding: 15px;
+			font-size: 30px;
+		}
+		/*Turning hover off for demo purposes*/
+		header nav ul li a:hover {
+			color: #fff;
+		}
+		/*Using Active instead of Hover for tablet/mobile */
+		header nav ul li a:active {
+			color: #084f77;
+		}
+		button#sign-in {
+			font-size: 30px;
+			font-family: "Lato", Arial, Sans-serif;
+			margin: 0px;
+			width: 400px;
+			height: 60px;
+			border: none;
+			background: #084f77;
+			padding: 10px;
+		}
+		button#sign-in:active {
+			background: #107fc9;
+		}
+
+		/* LANDING ================ */
+		section#landing {
+			background-attachment: fixed;
+			background-position: 150px 400px;
+		}
+		div#marketing {
+			margin-bottom: 0px;
+		}
+		
+		div#marketing img  {
+			margin: 30px auto;
+		}
+		div#marketing img  {
+			width: 100%;
+			float:left;
+		}
+
+		div#down-arrow {
+			display: none;
+		}
+		
+		/* BIG BUTTONS ============ */
+		button#big-signup {
+			width: 100%;
+			margin: 15px auto;
+		}
+		button#big-tryit {
+			width: 100%;
+			margin: 15px auto;
+			margin-bottom: 60px;
+		}
+		button.more-info {
+			width: 100%;
+			margin: 30px 0px;
+		}
+		/* ALL FEATURES ============ */
+		.features {
+			padding: 60px 0px;
+		}
+
+		section#how-it-works img, section#why-use-it img, section#pricing img {
+			float: left;
+			width: 100%;
+			margin: 30px auto;
+		}
+
+		/* CALL TO ACTION ========== */
+		section#call-to-action h4 {
+			font-size: 48px;
+			line-height: 52px;
+			font-weight: normal;
+		}
+		section#call-to-action {
+			padding-bottom:10px;
+		}
+
+
+		/* FOOTER ================== */
+		section#footer {
+			height:300px;
+		}
+		footer section div img {
+			display: none;
+		}
+		section#footer div ul {
+			float: none;
+			font-size: 30px;
+			margin-top: 30px;
+		}
+		section#footer div ul li {
+			display: block;
+			text-align: center;
+			padding: 15px;
+		}
+		footer section div ul li:hover {
+			background: #084f77;
+		}
+		footer section div ul li a:hover {
+			color: #fff;
+		}
+		footer section div ul li a:active {
+			color: #41a2d8;
+		}
+		.features {
+			padding: 30px 0px;
+		}
+
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+/*		header {
+			height: 316px;
+		}*/
+		header nav ul, section#footer div ul {
+			float:none;
+			text-align: center;
+		}
+		header nav ul li, section#footer div ul li {
+			display:block;
+		}
+		button#sign-in {
+			width: 90%;
+		}
+		div#marketing {
+			margin-top:30px;
+		}
+		h1 {
+			text-align: center;
+		}
+
+
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
