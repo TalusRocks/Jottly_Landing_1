@@ -1,0 +1,248 @@
+h1 { /* large marketing text */
+  font-size: 48px;
+  font-weight:normal;
+  font-family: "Lato";
+  color:#107fc9;
+}
+h2 { /* headlines */
+  font-size:24px;
+  font-weight:normal;
+  font-family: "Lato";
+  color:#107fc9;
+}
+h3 { /* small marketing text */
+  font-size:18px;
+  font-weight:normal;
+  font-family: "Quicksand";
+  color:#333333;
+}
+h4 { /* call to action */
+  font-size:36px;
+  font-weight:bold;
+  font-family: "Lato";
+  color:#107fc9;
+}
+p { /* body text */
+  font-size:16px;
+  font-weight:normal;
+  font-family: "Quicksand";
+  color:#333333;
+}
+body {
+  background-color: #fff;
+}
+
+
+/* HEADER ============================> */
+section#header div img {
+  margin: 10px 0px 10px -5px;
+  float: left;
+  width: 160px;
+}
+section#header {
+  background-color: #41a2d8;
+}
+header {
+  height:80px;
+}
+header nav {
+  display:inline;
+}
+header nav ul {
+  float: right;
+  font-size:16px;
+  font-weight:bold;
+  font-family: "Lato";
+  color:#fff;
+  margin-top: 30px;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  text-decoration: none;
+  padding: 0px 20px;
+}
+header nav ul li a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+header nav ul li a:hover {
+  color: #084f77;
+}
+
+
+/* LANDING SPLASH ============================> */
+section#landing {
+  background-color: #d3e9f4;
+  background-image:url('../images/large-bg-logo.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 150px 150px; 
+}
+div#marketing {
+  text-align:left;
+  margin-top:80px;
+  margin-bottom:30px;
+}
+div#marketing img {
+  float:right;
+  width: 425px;
+  max-width: 100%;
+  margin-left: 30px;
+}
+div#down-arrow {
+  margin-top:30px;
+  margin-bottom:30px;
+  text-align: center;
+}
+
+/*=======BUTTONS=========== */
+div#big-buttons {
+  text-align: center;
+}
+button, button:hover {
+  border-radius: 3px;
+  text-decoration: none;
+  border:1px solid;
+  cursor: pointer;
+}
+button#sign-in {
+  font-size:16px;
+  font-weight:normal;
+  font-family: "Quicksand", Arial, Sans-serif;
+  color:#fff;
+  background-color:#107fc9;
+  border-color:#084f77;
+  padding: 5px 15px;
+  margin-left:20px;
+}
+button#sign-in:hover {
+  background:#084f77;
+}
+button#big-signup {
+  font-size:20px;
+  font-weight:normal;
+  font-family: "Quicksand", Arial, Sans-serif;
+  color:#fff;
+  background-color:#f2c433;
+  border-color:#ce993a;
+  width: 170px;
+  height: 45px;
+  margin: 15px 10px;
+}
+button#big-signup:hover {
+  background-color:#e8b513;
+}
+button#big-tryit {
+  font-size:20px;
+  font-weight:normal;
+  font-family: "Quicksand", Arial, Sans-serif;
+  color:#fff;
+  background-color:#41a2d8;
+  border-color:#107fc9;
+  width: 170px;
+  height: 45px;
+  margin: 15px 10px;
+}
+button#big-tryit:hover {
+  background-color:#107fc9;
+}
+button.more-info {
+  font-size:18px;
+  font-weight:normal;
+  font-family: "Quicksand", Arial, Sans-serif;
+  color:#fff;
+  background-color:#41a2d8;
+  border-color:#107fc9;
+  padding: 10px 20px;
+}
+button.more-info:hover {
+  background-color:#107fc9;
+}
+button#pricing {
+  padding: 15px;
+  margin: 15px 15px 15px 0px;
+}
+span#prices {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* ALL FEATURE SECTIONS ======== */
+.features {
+  padding: 100px 0px;
+}
+img {
+  max-width: 100%;
+}
+/* HOW IT WORKS ============================> */
+section#how-it-works img {
+  float:right;
+  margin-top: 42px;
+}
+section.features p {
+  max-width: 525px;
+}
+
+/* WHY USE IT ================================> */
+section#why-use-it, section#call-to-action {
+  background-color:#e7f6f9;
+}
+section#why-use-it img {
+  float:right;
+}
+
+
+/* PRICING ====================================> */
+section#pricing img {
+  float:right;
+
+}
+
+/* CALL TO ACTION =============================> */
+section#call-to-action {
+  text-align: center;
+  padding-bottom: 100px;
+}
+section#call-to-action div p {
+  padding: 15px 0px 20px 0px;
+  margin: 0px auto;
+  max-width: 700px;
+}
+
+
+
+/* FOOTER =====================================> */
+footer section div img {
+  margin-left: -5px;
+  float: left;
+  width: 160px;
+}
+section#footer {
+  background-color:#084f77;
+  padding-top:20px;
+  padding-bottom:30px;
+}
+section#footer div ul {
+  float: right;
+  font-size:16px;
+  font-weight:bold;
+  font-family: "Lato";
+  color:#fff;
+}
+section#footer div ul li {
+  display: inline;
+  padding: 0px 20px;
+}
+footer section div ul li a {
+  text-decoration: none;
+}
+footer section div ul li a:visited {
+  color: #fff;
+}
+footer section div ul li a:hover {
+  color: #41a2d8;
+}
+
+
